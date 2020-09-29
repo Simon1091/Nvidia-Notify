@@ -49,7 +49,7 @@ urlKeyWords = {
 
 # Download the geckodriver from https://github.com/mozilla/geckodriver/releases, and then put the path to the executable in this rstring.
 # I used version 0.27.0
-firefoxWebdriverExecutablePath = r'INSERT EXECUTABLE PATH HERE'
+firefoxWebdriverExecutablePath = r'C:\Users\Simon\Documents\GitHub\Nvidia-Notify\geckodriver.exe'
 
 # If you want to send alerts to discord via webhooks, place the webhook URL here
 if USE_DISCORD:
@@ -58,10 +58,10 @@ if USE_DISCORD:
 # If you want text notifications, you'll need to have a Twilio account set up (Free Trial is fine)
 # Both of these numbers should be strings, in the format '+11234567890' (Not that it includes country code)
 if USE_TWILIO:
-    twilioToNumber = '+12223334444'
-    twilioFromNumber = '+15556667777'
-    twilioSid =  '## INSERT TWILIO SID HERE ##'
-    twilioAuth = '## INSERT TWILIO AUTH HERE ##'
+    twilioToNumber = '+16262356650'
+    twilioFromNumber = '+16262405084'
+    twilioSid =  'AC3622469beb6fc558e00f5d811425da27'
+    twilioAuth = '268d14162a80f1f4f042b8633fe4ba5b'
     client = Client(twilioSid, twilioAuth)
 
 if NOTIFY_MAC:
