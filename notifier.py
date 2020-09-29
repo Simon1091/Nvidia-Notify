@@ -58,10 +58,10 @@ if USE_DISCORD:
 # If you want text notifications, you'll need to have a Twilio account set up (Free Trial is fine)
 # Both of these numbers should be strings, in the format '+11234567890' (Not that it includes country code)
 if USE_TWILIO:
-    twilioToNumber = '+16262356650'
-    twilioFromNumber = '+16262405084'
-    twilioSid =  'AC3622469beb6fc558e00f5d811425da27'
-    twilioAuth = '268d14162a80f1f4f042b8633fe4ba5b'
+    twilioToNumber = '##'
+    twilioFromNumber = '##'
+    twilioSid =  'A##'
+    twilioAuth = '##'
     client = Client(twilioSid, twilioAuth)
 
 if NOTIFY_MAC:
